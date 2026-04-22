@@ -1,0 +1,12 @@
+name: claude
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14
+  - pip
+  - pip:
+    - anthropic==0.89.0
+    - python-dotenv==1.2.2
+    - pandas==3.0.2
+    - ipython==9.12.0
